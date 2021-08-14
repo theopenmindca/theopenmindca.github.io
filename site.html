@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The open mind</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+function myFunction() {
+	const x = document.getElementById("navDemo");
+	if (x.className.indexOf("w3-show") == -1) {
+		x.className += " w3-show";
+	} else { 
+		x.className = x.className.replace(" w3-show", "");
+	}
+}
+	</script>
+	<style>
+	.outline-text {
+		color: #fff;
+		text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	}
+	</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+	<div class="w3-bar w3-black w3-card">
+		<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+		<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+		<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+	</div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+	<a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+	<a href="#services" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+	<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+	<div class="w3-display-container w3-center">
+	<img src="waterfall.jpeg" style="width:100%">
+	<div class="w3-display-middle w3-container w3-text-white w3-padding-32">
+		<h2 class="outline-text w3-wide w3-center">The Open Mind</h2>
+		<p class="outline-text w3-justify w3-hide-small">Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+laborum.</p>
+	</div>
+	</div>
+
+<div class="w3-white" id="services">
+	<div class="w3-container w3-content w3-padding-64">
+		<h2 class="w3-wide w3-center">Services</h2>
+		<div class="w3-row w3-padding-32">
+			<div class="w3-third" style="padding:10px;">
+				<h4>How Can Psychotherapy help?</h4>
+				<p>Psychotherapy can be helpful in treating most mental health problems, including:</p>
+				<ul>
+					<li><b>Anxiety disorders</b>, such as obsessive-compulsive disorder (OCD), phobias, panic disorder or post-traumatic stress disorder (PTSD)</li>
+					<li><b>Mood disorders</b>, such as depression or bipolar disorder</li>
+					<li><b>Addictions</b>, such as alcoholism, drug dependence or compulsive gambling</li>
+					<li><b>Eating disorders</b>, such as anorexia or bulimia</li>
+					<li><b>Personality disorders</b>, such as borderline personality disorder or dependent personality disorder</li>
+					<li><b>Schizophrenia</b> or other disorders that cause detachment from reality (psychotic disorders)</li>
+				</ul>
+				Not everyone who benefits from psychotherapy is diagnosed with a mental illness. Psychotherapy can help with a number of life's stresses and conflicts that can affect anyone. For example, it may help you:
+				<ul>
+					<li><b>Resolve conflicts</b> with your partner or someone else in your life</li>
+					<li><b>Relieve anxiety</b> or stress due to work or other situations</li>
+					<li><b>Cope with major life changes</b>, such as divorce, the death of a loved one or the loss of a job</li>
+					<li><b>Learn to manage unhealthy reactions</b>, such as road rage or passive-aggressive behavior</li>
+					<li><b>Come to terms with an ongoing or serious physical health problem</b>, such as diabetes, cancer or long-term (chronic) pain</li>
+					<li><b>Recover from physical or sexual abuse</b> or witnessing violence</li>
+					<li><b>Cope with sexual problems</b>, whether they're due to a physical or psychological cause</li>
+					<li><b>Sleep better</b>, if you have trouble getting to sleep or staying asleep (insomnia)</li>
+				</ul>
+				In some cases, psychotherapy can be as effective as medications, such as antidepressants. However, depending on your specific situation, psychotherapy alone may not be enough to ease the symptoms of a mental health condition. You may also need medications or other treatments.
+			</div>
+
+			<div class="w3-third" style="padding:10px;">
+				<h4>Types of Psychotherapy</h4>
+				<p>There are a number of effective types of psychotherapy. Some work better than others in treating certain disorders and conditions. In many cases, therapists use a combination of techniques. Your therapist will consider your particular situation and preferences to determine which approach may be best for you.</p>
+				<br>
+				<p>Although many types of therapies exist, some psychotherapy techniques proven to be effective include:</p>
+				<ul>
+					<li><b>Cognitive behavioral therapy (CBT)</b>, which helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones</li>
+					<li><b>Dialectical behavior therapy</b>, a type of CBT that teaches behavioral skills to help you handle stress, manage your emotions and improve your relationships with others</li>
+					<li><b>Acceptance and commitment therapy</b>, which helps you become aware of and accept your thoughts and feelings and commit to making changes, increasing your ability to cope with and adjust to situations</li>
+					<li><b>Psychodynamic and psychoanalysis therapies</b>, which focus on increasing your awareness of unconscious thoughts and behaviors, developing new insights into your motivations, and resolving conflicts</li>
+					<li><b>Interpersonal psychotherapy</b>, which focuses on addressing problems with your current relationships with other people to improve your interpersonal skills — how you relate to others, such as family, friends and colleagues</li>
+					<li><b>Supportive psychotherapy</b>, which reinforces your ability to cope with stress and difficult situations</li>
+				</ul>
+				<p>Psychotherapy is offered in different formats, including individual, couple, family or group therapy sessions, and it can be effective for all age groups.</p>
+			</div>
+
+			<div class="w3-third" style="padding:10px;">
+				<h4>Getting the most out of Psychotherapy</h4>
+				<p>Take steps to get the most out of your therapy and help make it a success.</p>
+				<ul>
+					<li><b>Make sure you feel comfortable with your therapist.</b> If you don't, look for another therapist with whom you feel more at ease.</li>
+					<li><b>Approach therapy as a partnership.</b> Therapy is most effective when you're an active participant and share in decision-making. Make sure you and your therapist agree about the major issues and how to tackle them. Together, you can set goals and measure progress over time.</li>
+					<li><b>Be open and honest.</b> Success depends on willingness to share your thoughts, feelings and experiences, and to consider new insights, ideas and ways of doing things. If you're reluctant to talk about certain issues because of painful emotions, embarrassment or fears about your therapist's reaction, let your therapist know.</li>
+					<li><b>Stick to your treatment plan.</b> If you feel down or lack motivation, it may be tempting to skip psychotherapy sessions. Doing so can disrupt your progress. Try to attend all sessions and to give some thought to what you want to discuss.</li>
+					<li><b>Don't expect instant results.</b> Working on emotional issues can be painful and may require hard work. You may need several sessions before you begin to see improvement.</li>
+					<li><b>Do your homework between sessions.</b> If your therapist asks you to document your thoughts in a journal or do other activities outside of your therapy sessions, follow through. These homework assignments can help you apply what you've learned in the therapy sessions to your life.</li>
+					<li><b>If psychotherapy isn't helping, talk to your therapist.</b> If you don't feel that you're benefiting from therapy after several sessions, talk to your therapist about it. You and your therapist may decide to make some changes or try a different approach that may be more effective.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="w3-black" id="contact">
+	<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+		<h2 class="w3-wide w3-center">CONTACT</h2>
+		<div class="w3-large w3-center">
+			<i class="fa fa-phone" style="width:30px"></i>(613) 123-4567<br>
+			<i class="fa fa-envelope" style="width:30px"> </i>theopenmindcanada@gmail.com<br>
+		</div>
+	</div>
+</div>
+  
+<!-- End Page Content -->
+</div>
+
+</body>
+</html>
