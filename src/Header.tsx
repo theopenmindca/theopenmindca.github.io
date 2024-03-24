@@ -1,5 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
-import { Category } from "./Category";
+import { Box, Typography } from "@mui/material";
 
 export const Header = () => {
   return (
